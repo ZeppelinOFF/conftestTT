@@ -4,3 +4,4 @@ WORKDIR /fortest
 COPY . /fortest
 CMD [ "./*/*/", "dependency", "update" ]
 RUN echo "OK"
+RUN echo "Push next step, Motherfucer!"
